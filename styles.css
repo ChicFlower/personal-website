@@ -3,3 +3,14 @@
     font-family: sans-serif;
     background-color: red;
 }
+
+.area
+{
+    display: flex
+}
+
+.heading
+{
+    border-color: black 10px;
+    font: white;
+}
