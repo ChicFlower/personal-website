@@ -1,16 +1,27 @@
 *
 {
     font-family: sans-serif;
-    background-color: red;
 }
 
 .area
 {
-    display: flex
+    display: flex;
+    align-items: flex-start;
 }
+
 
 .heading
 {
-    border-color: black 10px;
-    font: white;
+    font-size: 250%;
+    color: red;
+    border-style: solid;
+    border-color: black;
+    order: 1;
+    align-self: center;
+    justify-content: center;
+}
+
+.logo
+{
+    order: 0
 }
