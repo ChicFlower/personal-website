@@ -25,9 +25,55 @@
 }
 .navigation
 {
+    display: flex;
+    justify-content: center;
     border: solid 2px  black;
     margin: 0 auto;  
     color: black;
     font-size: 24;
     padding: 1%;
+}
+
+.my-button 
+{
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+  border-radius: 5px; 
+  font-weight: bold; 
+  margin: 5px; 
+}
+
+
+.my-button:hover 
+{
+  background-color: #0056b3; 
+}
+
+.main-body
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+.column-1
+{
+    border: solid 2px  black;
+    padding: 200px;
+}
+
+.column-2
+{
+    border: solid 2px  black;
+    padding: 200px;
+}
+
+.column-3
+{
+    border: solid 2px  black;
+    padding: 200px;
 }
