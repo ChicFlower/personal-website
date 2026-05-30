@@ -1,27 +1,4 @@
-.main_body
+.main-body
 {
-    display:grid;
     grid-template-columns: repeat(3, 30%);
-    padding:2%;
-    padding-top: 0%;
-    place-content: center;
-    text-align: center;
-}
-
-.main_body div
-{
-    border: 2px solid var(--accent);
-    text-wrap: pretty;
-}
-
-.title
-{
-    text-align: center;
-    padding: 5%;
-    place-self: center;
-}
-
-h1
-{
-    font-size: 4vw;
 }
