@@ -41,6 +41,7 @@ body
     grid-template-columns: repeat(9, 1fr);
     place-self: center;
     text-align: center;
+    text-align: center;
 }
 
 .nav div
@@ -51,16 +52,4 @@ body
 .my-button
 {
     text-decoration: none;
-}
-
-.footer
-{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    place-self: center;
-}
-
-.footer div
-{
-    border: 2px solid var(--accent);
 }
