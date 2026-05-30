@@ -1,0 +1,22 @@
+.main_body
+{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding:5%;
+    padding-top: 0%;
+}
+
+.main_body div
+{
+    border: 2px solid var(--secondary);
+    background-color: rgba(var(--background), 0.5);
+}
+
+.title
+{
+    text-align: center;
+    padding: 5%;
+    background-color: rgba(var(--background), 0.5);
+    width: 30vw;
+    place-self: center;
+}
