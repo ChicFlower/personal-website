@@ -38,7 +38,7 @@ body
 .nav
 {
     display: grid;
-    grid-template-columns: repeat(9, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     place-self: center;
     text-align: center;
     text-align: center;
