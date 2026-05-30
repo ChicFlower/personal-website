@@ -24,35 +24,43 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    place-content: center;
 }
 
+.outer_box
+{
+    background-color: rgba(var(--background), 0.5);
+    border: 2px solid var(--accent);
+    width: 60vw;
+    place-self: center;
+}
 
 .nav
 {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    height: 8vh;
-    width: 70vw;
     place-self: center;
     text-align: center;
-    background-color: rgba(var(--background), 0.5);
 }
 
 .nav div
 {
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--accent);
 }
 
+.my-button
+{
+    text-decoration: none;
+}
 
 .footer
 {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    height: 10vh;
-    background-color: rgba(var(--background), 0.5);
+    place-self: center;
 }
 
 .footer div
 {
-    border: 2px solid var(--secondary);
+    border: 2px solid var(--accent);
 }
