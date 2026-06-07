@@ -16,11 +16,12 @@ html
 {
     font-size: 1.5vw;
     font-family: Roboto;
+    color: var(--text);
 }
 
 body
 {
-    background-image: url("galaxy background.jpg"); 
+    background-image: url("GB_LM.jpg"); 
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

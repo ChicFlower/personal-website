@@ -2,7 +2,7 @@ function theme_switch()
 {
     let theme = document.getElementById("theme");
 
-    if (theme.getAttribute('href') == "stlyes_LM.css")
+    if (theme.getAttribute('href') == "styles_LM.css")
     {
         theme.setAttribute('href', "styles_DM.css");
     }
