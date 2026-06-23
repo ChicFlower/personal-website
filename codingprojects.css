@@ -1,0 +1,15 @@
+.main_body
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.PJ
+{
+    background-color: rgba(var(--secondary));
+}
+
+.PJ > img
+{
+    object-fit: cover;
+    width: 90%;
+}
