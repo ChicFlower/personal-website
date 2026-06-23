@@ -30,7 +30,7 @@ document.getElementById('nav_bar').innerHTML =  `
     </div>
 
     <div>
-        <a href="cats" class="my-button">Cat Pictures!</a>
+        <a href="cats.html" class="my-button">Cat Pictures!</a>
     </div>
 
     <div>
