@@ -6,7 +6,7 @@ html
 :root
 {
     --text: #ebe9fc;
-    --background: 15 30 41;
+    --background: 40, 26, 240;
     --primary: #d831c4;
     --secondary: #0a0467;
     --accent: #ae090c;
@@ -42,7 +42,6 @@ body
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     place-self: center;
-    text-align: center;
     text-align: center;
 }
 

@@ -42,7 +42,6 @@ body
     grid-template-columns: repeat(10, 1fr);
     place-self: center;
     text-align: center;
-    text-align: center;
 }
 
 .nav div

@@ -6,6 +6,7 @@ function theme_switch()
     {
         theme.setAttribute('href', "styles_DM.css");
     }
+    
     else
     {
         theme.setAttribute('href', "styles_LM.css");
