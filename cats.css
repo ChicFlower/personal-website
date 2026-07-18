@@ -2,10 +2,12 @@
 {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-around;
 }
 
 .cat_pic > img
 {
     object-fit: cover;
     max-width: 25vw;
+    object-position:center;
 }

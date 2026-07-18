@@ -1,0 +1,17 @@
+.ft
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+
+.ft div
+{
+    font-size: 3vw !important;
+}
+
+.title2
+{
+    text-align: center;
+    border: none;
+}
