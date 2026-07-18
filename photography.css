@@ -1,0 +1,14 @@
+.main_body
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.y
+{
+    display: grid;
+    border: 2px solid var(--accent);
+    width: 30%;
+    place-self: center;
+}

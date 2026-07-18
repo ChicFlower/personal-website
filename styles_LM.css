@@ -21,25 +21,23 @@ html
 
 body
 {
-    background-image: url("GB_LM.jpg"); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    place-content: center;
+    background-color: white;
+    display: grid
 }
 
 .outer_box
 {
+    display: grid;
+    place-self: center;
     background-color: rgba(var(--background), 0.5);
     border: 2px solid var(--accent);
     width: 88vw;
-    place-self: center;
 }
 
 .nav
 {
     display: grid;
-    grid-template-columns: repeat(10, minmax(0, 1fr));
+    grid-template-columns: repeat(8, minmax(0, 1fr));
     text-align: center;
 }
 

@@ -1,0 +1,12 @@
+.main_body
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.sl
+{
+    width: 30%;
+    place-self: center;
+}

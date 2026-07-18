@@ -8,17 +8,9 @@ document.getElementById('nav_bar').innerHTML =  `
     <div>
         <a href="blog.html" class="my-button">Blog</a>
     </div>
-    
-    <div>
-        <a href="www.peacefulLeaves.co.uk" class="my-button">Peaceful Leaves</a>
-    </div>
 
     <div>
-        <a href="https://www.facebook.com/profile.php?id=61576877245168" class="my-button">My Facebook Page</a>
-    </div>
-    
-    <div>
-        <a href="https://www.linkedin.com/in/jay-phoenix0/" class="my-button">My Linkedin</a>
+        <a href="social_media.html" class="my-button">My Socials!</a>
     </div>
 
     <div>
@@ -34,7 +26,7 @@ document.getElementById('nav_bar').innerHTML =  `
     </div>
 
     <div>
-        <a href="Photography" class="my-button">My Photography</a>
+        <a href="photography.html" class="my-button">My Photography</a>
     </div>
 
     <div>

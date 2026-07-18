@@ -1,11 +1,16 @@
 .main_body
 {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
 }
 
 .PJ
 {
     background-color: rgba(var(--secondary));
+    width: 50%;
+    justify-self: center;
+
 }
 
 .PJ > img

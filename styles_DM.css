@@ -16,38 +16,37 @@ html
 *
 {
     font-size: 1.5vw;
-    font-family: Roboto;
+    font-family: Google Sans Flex;
     color: var(--text);
 }
 
 body
 {
-    background-image: url("GB_DM.png"); 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    place-content: center;
+    display: grid;
+    background-color: black;
 }
 
 .outer_box
 {
+    display: grid;
+    place-self: center;
     background-color: rgba(var(--background), 0.5);
     border: 2px solid var(--accent);
-    width: 60vw;
-    place-self: center;
+    width: 88vw;
 }
 
 .nav
 {
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    place-self: center;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
     text-align: center;
 }
 
 .nav div
 {
     border: 2px solid var(--accent);
+    display: flex;
+    place-items: center;
 }
 
 .my-button
@@ -80,4 +79,8 @@ body
 h1
 {
     font-size: 4vw;
+}
+
+h2{
+    font-size: 2vw;
 }
