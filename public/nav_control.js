@@ -33,16 +33,3 @@ document.getElementById('nav_bar').innerHTML =  `
         <a onclick="theme_switch()">Theme Switch</a>
     </div>
 </div> `;
-
-
-
-
-
-// fetch('navigation.html')
-// .then(res => res.text())
-// .then(text => {
-//     let oldelem = document.querySelector("script#replace_with_navbar");
-//     let newelem = document.createElement("div");
-//     newelem.innerHTML = text;
-//     oldelem.parentNode.replaceChild(newelem,oldelem);
-// })
