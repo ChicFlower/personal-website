@@ -1,13 +1,22 @@
 <html>
     <head> 
-        <base href="https://livnglife.neocities.org/public">
-        <link id="theme" rel="stylesheet" href="/public/styles/styles_LM.css"/>
-        <script src="/public/scripts/DLMode.js" defer></script>
-        <script src="/public/scripts/nav_control.js" defer></script>
-        <link rel="stylesheet" href="/public/styles/index_styles.css"/>
+        <link id="theme" rel="stylesheet" href="BASE_PATH/styles/styles_LM.css"/>
+        <script src="BASE_PATH/scripts/DLMode.js" defer></script>
+        <script src="BASE_PATH/scripts/nav_control.js" defer></script>
+        <link rel="stylesheet" href="BASE_PATH/styles/index_styles.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="referrer" content="no-referrer" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google Sans Flex">
+        <script>
+            let BASE_PATH = "/public";
+            if (window.location.hostname.includes('neocities.org')) {
+                // On Neocities
+                BASE_PATH = "";
+            } else {
+                // Local development
+                BASE_PATH = "/public";
+            }
+            </script>
     </head>
     
     
