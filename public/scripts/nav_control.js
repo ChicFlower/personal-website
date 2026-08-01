@@ -30,6 +30,6 @@ document.getElementById('nav_bar').innerHTML =  `
     </div>
 
     <div>
-        <a onclick="../pages/theme_switch()">Theme Switch</a>
+        <a onclick="../theme_switch()">Theme Switch</a>
     </div>
 </div> `;

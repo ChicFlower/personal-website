@@ -5,11 +5,11 @@ html
 
 :root
 {
-    --text: #ebe9fc;
-    --background: 40, 26, 240;
-    --primary: #d831c4;
-    --secondary: #0a0467;
-    --accent: #ae090c;
+    --text: 240, 72, 145;
+    --background: 51, 39, 121;
+    --primary: 138, 74, 182;
+    --secondary: 2, 26, 104;
+    --accent: 86, 74, 156;
 
 }
 
@@ -17,22 +17,13 @@ html
 {
     font-size: 1.5vw;
     font-family: Google Sans Flex;
-    color: var(--text);
+    color: rgba(var(--text));
 }
 
 body
 {
     display: grid;
-    background-color: black;
-}
-
-.outer_box
-{
-    display: grid;
-    place-self: center;
-    background-color: rgba(var(--background), 0.5);
-    border: 2px solid var(--accent);
-    width: 88vw;
+    background-color: rgba(var(--background));
 }
 
 .nav
@@ -40,11 +31,12 @@ body
     display: grid;
     grid-template-columns: repeat(8, minmax(0, 1fr));
     text-align: center;
+    background-color: rgba(var(--primary));
 }
 
 .nav div
 {
-    border: 2px solid var(--accent);
+    border: 2px solid rgba(var(--accent));
     display: flex;
     place-items: center;
 }
@@ -65,7 +57,7 @@ body
 
 .main_body div
 {
-    border: 2px solid var(--accent);
+    border: 2px solid rgba(var(--accent));
     text-wrap: pretty;
 }
 
