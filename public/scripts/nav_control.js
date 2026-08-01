@@ -28,8 +28,4 @@ document.getElementById('nav_bar').innerHTML =  `
     <div>
         <a href="../pages/photography.html" class="my-button">My Photography</a>
     </div>
-
-    <div>
-        <a onclick="../theme_switch()">Theme Switch</a>
-    </div>
 </div> `;
