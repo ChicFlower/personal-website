@@ -1,0 +1,13 @@
+.photos
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-around;
+}
+
+.photos > img
+{
+    object-fit: cover;
+    max-width: 25vw;
+    object-position:center;
+}

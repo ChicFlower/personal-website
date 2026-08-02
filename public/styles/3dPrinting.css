@@ -1,13 +1,15 @@
-.ft
+.main_body
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
 }
 
-.ft div
+
+.cw, .pw
 {
-    font-size: 3vw !important;
+    place-self: center;
+    font-size: 2vw;
 }
 
 .title2
