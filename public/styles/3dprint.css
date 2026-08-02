@@ -11,3 +11,8 @@
     max-width: 25vw;
     object-position:center;
 }
+
+img
+{
+    border: 3vw solid rgba(var(--primary));
+}
