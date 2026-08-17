@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: space-evenly;
+    row-gap: 20%;
 }
 
 .PJ

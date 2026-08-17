@@ -5,3 +5,8 @@
     text-align: center;
     place-content: center;
 }
+
+@media only screen and (max-width: 780px)
+{
+
+}
