@@ -84,6 +84,7 @@ h2{
     .nav
     {
         grid-template-columns: repeat(4, 1fr);
+        height: 20vw;
     }
 
     *
