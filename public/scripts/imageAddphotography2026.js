@@ -52,7 +52,6 @@ for(i=0;i<images.length;i++)
         img=document.createElement("img");
         img.src=images[i];
         body.appendChild(img);
-        body.appendChild(loading="lazy")
     }
 
 
