@@ -8,5 +8,18 @@
 
 @media only screen and (max-width: 780px)
 {
+    .main_body{
+        grid-template-columns: 1fr;
+    }
+
+    .main_body div{
+        border: 2px solid rgba(var(--accent));
+    }
+
+    .main_text
+    {
+        grid-row-start: 1;
+    }
+
 
 }
